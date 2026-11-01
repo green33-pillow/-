@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE SENTENCE LAB — 문장 연구소</title>
+<meta name="description" content="문장을 해부하고, 문체를 단련한다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#view">본문으로 건너뛰기</a>
+<div class="app">
+  <nav class="nav" aria-label="주요 메뉴">
+    <div class="brand"><strong>THE SENTENCE LAB</strong><span>문장 연구소</span></div>
+    <button data-v="dashboard">대시보드</button>
+    <button data-v="lab">문장 해부실</button>
+    <button data-v="surg">문장 수술실</button>
+    <button data-v="train">작가 훈련실</button>
+    <button data-v="novel">장편소설 작업실</button>
+    <button data-v="codex">설정집</button>
+    <button data-v="style">문체 연구소</button>
+    <button data-v="settings">설정·데이터</button>
+    <p class="motto">문장을 해부하고, 문체를 단련한다.</p>
+  </nav>
+  <main id="view" tabindex="-1"></main>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
